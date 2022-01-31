@@ -1,0 +1,20 @@
+{
+  "name": "cabra-bot",
+  "version": "1.0.0",
+  "description": "Base of bot cabra",
+  "main": "src/index.js",
+  "author": "ELTITO310",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "discord.js": "^13.6.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
